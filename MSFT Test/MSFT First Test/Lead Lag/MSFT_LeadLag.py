@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from MSFT_Example import data
+from Data import data
 
 
 def lead_lag_correlation(x, y, lag_back=250, lag_forward=60):

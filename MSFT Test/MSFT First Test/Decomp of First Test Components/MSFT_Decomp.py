@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the dataset created in MSFT Example.py
-from MSFT_Example import data  
+from Data import data  
 if __name__ == "__main__":
 # Compute 60-day rolling correlations with MSFT price
     corrs = pd.DataFrame(index=data.index)
